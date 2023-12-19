@@ -18,4 +18,4 @@ window.addEventListener("mousemove", (e) => {
 btnToggle.addEventListener('click', () => {
     btnToggle.classList.toggle("active");
     box.classList.toggle("active");
-})
+});
