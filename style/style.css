@@ -23,7 +23,7 @@ body {
     background-color: #e5e7eb;
 }
 
-/* CONTAINER */
+/*========== CONTAINER ==============*/
 
 .boxContainer {
     width: 80%;
@@ -43,7 +43,7 @@ body {
     left:0;
     pointer-events: none;
 }
-/* NAVIGATION */
+/*============ NAVIGATION ==============*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -77,7 +77,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* btnToggle */
+/*=========== btnToggle =============*/
 .btnToggle {
     height: 50px;
     width: 50px;
@@ -104,7 +104,7 @@ nav ul li a {
     top:30px
 }
 
-/* hero section */
+/*=========== hero section ============= */
 .hero {
     height: 50vh;
 }
@@ -128,7 +128,7 @@ nav ul li a {
     transition: all 0.2s ease-in-out;
     font-weight: 700;
 }
-/* Mousse Move */
+/*============ Mousse Move ============= */
 .mousemove {
     height: 50px;
     width: 50px;
@@ -141,10 +141,7 @@ nav ul li a {
     overflow: hidden;
 }
 
-
-
-
-/* Anni */
+/*============ Animation ================ */
 .btnToggle.active .ligne:nth-child(1) {
     top:15px;
     transform: rotate(45deg);
@@ -153,4 +150,41 @@ nav ul li a {
 .btnToggle.active .ligne:nth-child(2) {
     top:15px;
     transform: rotate(-45deg);
+}
+/*======== AboutAs ==============*/
+.aboutAs {
+    padding: 10px 25px;
+    background-color: #008080;
+    margin-bottom: 25px;
+}
+
+.aboutAs h2 {
+    padding: 15px 0;
+    font-size: 1.4em;
+}
+
+.aboutAs p {
+    margin-bottom: 20px;
+}
+
+/*======== AllServices ==============*/
+.allServices {
+    padding: 10px 25px;
+    background-color: #e5e7eb;  
+}
+
+.allServices .cardTitle h2 {
+    padding: 15px 0;
+    font-size: 1.4em;
+}
+
+.card_services {
+    background-color: #e5e7eb;       
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card_services .card_items {
+    border: 1px solid #ffffff;
 }
