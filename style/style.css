@@ -158,17 +158,30 @@ nav ul li a {
 
 /*======== AboutAs ==============*/
 .aboutAs {
-    padding: 10px 25px;
+    padding: 10px 0;
     margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .aboutAs h2 {
-    padding: 15px 0;
-    font-size: 1.4em;
+    padding: 60px 12px;
+    font-size: 1.5em;
 }
 
 .aboutAs p {
     margin-bottom: 20px;
+}
+
+.aboutAsContentImg {
+    padding: 25px 0;
+}
+
+img {
+    padding: 25px 0;
+    max-width: 100%;
+    border-radius: 20px 20px;
 }
 
 /*======== AllServices ==============*/
@@ -193,12 +206,6 @@ nav ul li a {
     box-shadow: -3px 8px 15px -3px rgba(0,0,0,0.1);
     padding: 0 10px;
     transition: all 0.5s ease-out;
-}
-
-.card_services .card_items:hover {
-    background-color: #008080;
-    color: #fff;
-    transform: translateY(-9px);
 }
 
 .card_services .card_items  h2 {
