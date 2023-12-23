@@ -17,10 +17,11 @@
 
 h1, h2, h3, a {
     font-family: 'Montserrat',sans-serif;
+
 }
 
 body {
-    background-color: #f8f8fb;;
+    background-color: #f8f8fbb1;;
 }
 
 /*========== CONTAINER ==============*/
@@ -106,13 +107,14 @@ nav ul li a {
 /*=========== hero section ============= */
 .hero {
     height: 50vh;
-    background-color: beige;
+    background-color: #e7e7e72a;
 }
 
 .hero h1 {
     padding: 60px 25px;
     font-size: 2.5em;
     font-weight: bold;
+    color: #008080;
 }
 
 .hero p {
@@ -122,13 +124,19 @@ nav ul li a {
 
 .hero a {
     margin-left: 25px;
-    padding: 5px 25px;
+    padding: 10px 30px;
     border: 1px solid #008080;
     color: #008080;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     font-weight: 700;
 }
+
+.hero a:hover {
+    background-color: #008080;
+    color: #fff;
+}
+
 /*============ Mousse Move ============= */
 .mousemove {
     height: 50px;
@@ -159,26 +167,46 @@ nav ul li a {
     margin-bottom: 25px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .aboutAs h2 {
-    padding: 60px 12px;
-    font-size: 1.5em;
+    padding: 60px 25px;
+    font-size: 2em;
+    color: #008080;
 }
 
 .aboutAs p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 25px;
 }
 
 .aboutAsContentImg {
     padding: 25px 0;
 }
 
-img {
-    padding: 25px 0;
-    max-width: 100%;
-    border-radius: 20px 20px;
+.btnAboutAs {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 30px;
+    margin-left: 25px;
+    transition: all 0.5 ease-in-out;
+}
+
+.btnAboutAs:hover {
+    background-color:#fff; 
+    border: 1px solid #008080;
+    color: #008080;
+}
+
+.about_As_Img {
+    padding: 50px 10px;
+}
+
+img { 
+    box-shadow: -28px 0px 54px -32px rgba(0,0,0,0.1);
+    border-radius: 25px 25px;
+    width: 100%; 
 }
 
 /*======== AllServices ==============*/
@@ -188,7 +216,8 @@ img {
 
 .allServices .cardTitle h2 {
     padding: 15px 0;
-    font-size: 1.4em;
+    font-size: 2em;
+    color: #008080;
 }
 
 .card_services {
@@ -206,6 +235,7 @@ img {
 .card_font {
     background-color: #fff;;
     color: #008080;
+    transition: all 0.10s ease-out;
 }
 
 .card_font i {
@@ -216,10 +246,12 @@ img {
 .card_font:hover {
     background-color: #008080;
     color: #fff;
+    transform: translateY(10px);
 }
 
 .card_font h1 {
     padding: 10px 10px;
+
 } 
 
 .card_font p {
