@@ -17,7 +17,6 @@
 
 h1, h2, h3, a {
     font-family: 'Montserrat',sans-serif;
-    color: #008080;
 }
 
 body {
@@ -35,13 +34,11 @@ body {
     position: relative;
     left: -500px;
     opacity: 0;
-    pointer-events: none;
 }
 
 .active.box {
     opacity: 1;
     left:0;
-    pointer-events: none;
 }
 
 /*============ NAVIGATION ==============*/
@@ -200,19 +197,34 @@ img {
     gap: 20px;
 }
 
-.card_services .card_items {
+.card_services .card_font {
     border: transparent;
-    background-color: #fff;
     box-shadow: -3px 8px 15px -3px rgba(0,0,0,0.1);
-    padding: 0 10px;
     transition: all 0.5s ease-out;
 }
 
-.card_services .card_items  h2 {
-    padding: 20px 0;
+.card_font {
+    background-color: #fff;;
     color: #008080;
 }
 
-.card_services .card_items  p {
-    margin-bottom: 20px;
+.card_font i {
+    padding: 15px 10px;
+    font-size: 2em;
 }
+
+.card_font:hover {
+    background-color: #008080;
+    color: #fff;
+}
+
+.card_font h1 {
+    padding: 10px 10px;
+} 
+
+.card_font p {
+    padding: 25px 10px;
+    margin-bottom: 20px;
+} 
+
+
