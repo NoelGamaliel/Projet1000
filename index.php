@@ -56,7 +56,7 @@
         <section class="boxContainer">
             <div class="allServices">
                 <div class="cardTitle">
-                    <h2>Skills</h2>
+                    <h2>My Services</h2>
                 </div>
                 <div class="card_services">
                     <a href="#" class="card_font">
@@ -95,15 +95,35 @@
         </section>
         <!-- All services -->
 
-        <!-- Testmony -->
+        <!-- Teams -->
         <section class="boxContainer">
-            <div class="testmony">
-                <h1>Testmony</h1>
+            <div class="Teams">
+                <h1>Teams Worker</h1>
+                <p>
+                  We're a highly motivated team, dedicated to solving our customers' needs in a timely manner. So much experience in the field has allowed us to be focused on the result.
+                </p>
+            </div>
+        </section>
+        <!-- End Teams -->
+        <br><br><br>
+
+        <!-- Partenaires -->
+        <section class="boxContainer">
+            <div class="Partenaires">
+                <h1>Partenaires</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eum, suscipit officia ducimus veritatis consequuntur, inventore officiis et ad quis sunt error tenetur!
                 </p>
             </div>
         </section>
+        <!-- End Partenaires -->
+
+        <br><br><br>
+        <!-- footer of my page -->
+        <?php
+            include 'footer.php';
+        ?>
+        <!-- End footer of my page -->
     </main>
 
     <script src="./script.js"></script>

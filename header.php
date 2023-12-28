@@ -12,7 +12,7 @@
                 <a href="/">Logo</a>
                 <ul class="box">
                     <li><a href="http://">Home</a></li>
-                    <li><a href="http://">Blog</a></li>
+                    <li><a href="http://">My Services</a></li>
                     <li><a href="http://">About As</a></li>
                 </ul>
                 <a href="#" class="btnToggle">
