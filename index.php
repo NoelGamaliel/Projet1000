@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-    <title>NDtech - Consulting | Blog </title>
+    <title>NDtech - Consulting </title>
 </head>
 <body class="">
     <main class="container">
