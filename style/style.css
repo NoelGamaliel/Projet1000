@@ -375,15 +375,17 @@ i {
 
 /*============== Contact Form ===================*/
 .form {
-
+    border: 1px solid #008080;
 }
 
 .container_form {
+    width: 50%;
+    margin: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    top: 250px;
+    top: 100px;
 }   
 
 .container_form label {
@@ -393,11 +395,13 @@ i {
 .container_form input[type="text"], [type="email"] {
     margin-bottom: 10px;
     margin-top: 10px;
+    padding: 10px 5px;
 }
 
 .container_form textarea {
     margin-bottom: 10px;
     margin-top: 10px;
+    padding: 10px 5px;
 }
 
 .container_form button {
@@ -406,4 +410,5 @@ i {
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
                          rgba(0,128,128,1) 35%,
                          rgba(0,128,128,1) 100%);
+    border: 1px solid #f6f6f6;
 }
