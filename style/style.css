@@ -134,7 +134,9 @@ nav ul li a {
 }
 
 .hero a:hover {
-    background-color: #008080;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+                         #008080 0%,
+                         #012323 100%);
     border-radius: 5px 5px;
     color: #fff;
 }
@@ -188,7 +190,9 @@ nav ul li a {
 }
 
 .btnAboutAs {
-    background-color: #008080;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+                         #008080 0%,
+                         #012323 100%);
     color: #fff;
     padding: 10px 30px;
     margin-left: 25px;
@@ -197,10 +201,9 @@ nav ul li a {
 }
 
 .btnAboutAs:hover {
-    background-color:#fff; 
     border: 1px solid #008080;
     border-radius: 5px 5px;
-    color: #008080;
+    color: #ffffff;
 }
 
 .about_As_Img {
@@ -249,7 +252,9 @@ img {
 }
 
 .card_font:hover {
-    background-color: #008080;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+                         #008080 0%,
+                         #012323 100%);
     color: #fff;
     transform: translateY(10px);
 }
@@ -297,16 +302,11 @@ img {
     font-size: 3em;
 }
 
-
-
-
-
-
-
-
 /* ============== Footer ==================== */
 .container_footer {
-    background-color: #008080;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+                         #008080 35%,
+                         #012323 100%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -371,4 +371,39 @@ i {
     width: 40px;
     border: 0.5px solid #fff;
     border-radius: 5px 5px;
+}
+
+/*============== Contact Form ===================*/
+.form {
+
+}
+
+.container_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    top: 250px;
+}   
+
+.container_form label {
+    margin-top: 5px;
+}
+
+.container_form input[type="text"], [type="email"] {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container_form textarea {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container_form button {
+    padding: 20px 50px;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+                         rgba(0,128,128,1) 35%,
+                         rgba(0,128,128,1) 100%);
 }
