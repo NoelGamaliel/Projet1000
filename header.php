@@ -9,9 +9,9 @@
     <!-- header -->
         <div class="boxContainer">
             <nav class="boxContainer">
-                <a href="/">NDtech - Consult</a>
+                <a href="index.php">NDtech - Consult</a>
                 <ul class="box">
-                    <li><a href="http://">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="http://">My Services</a></li>
                     <li><a href="http://">About As</a></li>
                 </ul>

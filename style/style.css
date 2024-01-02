@@ -275,16 +275,33 @@ img {
     padding: 15px 15px; 
 }
 
-/*============== Partenaires ===================== */
-.Partenaires h1 {
+/*============== Technologies ===================== */
+.technologies h1 {
     padding: 25px 15px;
     font-size: 2em;
     color: #008080;
 }
 
-.Partenaires p {
+.technologies p {
     padding: 15px 15px; 
 }
+
+.technologies_groupe {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.items_technologies i {
+    color: #008080;
+    font-size: 3em;
+}
+
+
+
+
+
+
 
 
 /* ============== Footer ==================== */

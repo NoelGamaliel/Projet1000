@@ -107,16 +107,39 @@
         <!-- End Teams -->
         <br><br><br>
 
-        <!-- Partenaires -->
+        <!-- Technologies -->
         <section class="boxContainer">
-            <div class="Partenaires">
-                <h1>Partenaires</h1>
+            <div class="technologies">
+                <h1>My Technologies</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eum, suscipit officia ducimus veritatis consequuntur, inventore officiis et ad quis sunt error tenetur!
+                    We use the new technologie usualy for satisf the want these customers.
                 </p>
+                <div class="technologies_groupe">
+                    <div class="items_technologies">
+                        <i class="fa-brands fa-microsoft"></i>
+                    </div>
+                    <div class="items_technologies">
+                        <i class="fa-brands fa-linux"></i>
+                    </div>
+                    <div class="items_technologies">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <div class="items_technologies">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="items_technologies">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="items_technologies">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <div class="items_technologies">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- End Partenaires -->
+        <!-- End Technologies -->
 
         <br><br><br>
         <!-- footer of my page -->
