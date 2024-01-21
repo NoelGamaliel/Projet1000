@@ -25,7 +25,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, voluptas culpa voluptates delectus voluptatibus nulla rerum fuga. Tempore necessitatibus iste quam autem repellat molestiae nemo. Maiores non impedit ea rerum nihil nisi a fuga tenetur sunt id beatae iusto odit earum, alias dolore mollitia quos quas illo quis tempora dicta corporis perferendis obcaecati. Animi, voluptatibus labore.
                 </p>
 
-                <a href="contact.php">Contact</a>
+                <a href="contact.php">Contact As</a>
             </div>
         </section>
 		<!-- hero section -->

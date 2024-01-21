@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-@font-face {
-	font-family: 'Satoshi';
-	src: url(‘./Font/Satoshi-Bold.otf’) format(‘otf’)
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.0em;
     text-decoration: none;
     list-style-type: none;
@@ -21,7 +18,7 @@ h1, h2, h3, a {
 }
 
 body {
-    background-color: #f8f8fbb1;;
+    background-color: #f8f8fbb1;
 }
 
 /*========== CONTAINER ==============*/
@@ -111,7 +108,7 @@ nav ul li a {
 }
 
 .hero h1 {
-    padding: 60px 25px;
+    padding: 50px 25px;
     font-size: 2.5em;
     font-weight: bold;
     color: #008080;
@@ -175,7 +172,7 @@ nav ul li a {
 }
 
 .aboutAs h2 {
-    padding: 60px 25px;
+    padding: 30px 25px;
     font-size: 2em;
     color: #008080;
 }
@@ -300,6 +297,7 @@ img {
 .items_technologies i {
     color: #008080;
     font-size: 3em;
+    box-shadow: -3px 8px 15px -3px rgba(0,0,0,0.1);
 }
 
 /* ============== Footer ==================== */
@@ -411,4 +409,71 @@ i {
                          rgba(0,128,128,1) 35%,
                          rgba(0,128,128,1) 100%);
     border: 1px solid #f6f6f6;
+}
+
+
+/************ MediaQuery ****************/
+@media screen and (max-width: 600px) and (min-width: 350px) {
+    
+    .boxContainer {
+      background: #f8f8fbb1;
+      color: #008080;
+    }
+    nav a {
+        font-weight: bold;
+        font-size: 1rem;
+        color: #008080;
+        margin-left: 25px;
+    }
+
+    /****** HERO SECTION ***********/
+    .hero {
+        margin-bottom: 70px;
+    }
+    .hero h1 {
+        padding: 40px 25px;
+        font-size: 1.7em;
+        font-weight: bold;
+        color: #008080;
+    }
+
+    .hero p {
+        padding: 10px 25px;
+        margin-bottom: 50px;
+        font-size: 1em;
+    }
+    
+    .aboutAs {
+        padding: 10px 0;
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    /************ ALL SERVICES ***********/
+    .card_services {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    /************ ALL TECHNOLOGIES *********/
+    .technologies_groupe {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+
+    /*********** FOOTER *****************/
+    .container_footer {
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+                             #008080 35%,
+                             #012323 100%);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        padding: 25px 15px;
+        color: #fff;
+    }
 }

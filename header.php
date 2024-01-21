@@ -9,7 +9,7 @@
     <!-- header -->
         <div class="boxContainer">
             <nav class="boxContainer">
-                <a href="index.php">NDtech - Consult</a>
+                <a href="index.php">NDTECH-CONSULT</a>
                 <ul class="box">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="http://">My Services</a></li>

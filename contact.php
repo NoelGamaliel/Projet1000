@@ -9,6 +9,11 @@
     <title>Contact</title>
 </head>
 <body>
+
+    <?php
+        include 'header.php';
+    ?>
+    <br><br><br>
     <main class="boxContainer">
         <form action="" method="post">
             <div class="container_form">
@@ -28,5 +33,12 @@
             </div>
         </form>
     </main>
+    <br><br><br><br><br><br><br>
+    <!-- footer of my page -->
+        <?php
+            include 'footer.php';
+        ?>
+    <!-- End footer of my page -->
+    <script src="./script.js"></script>
 </body>
 </html>
