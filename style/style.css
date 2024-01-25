@@ -58,6 +58,10 @@ nav a {
     color: #008080;
     margin-left: 25px;
 }
+/**** boxContainer logo ***********/
+.boxContainer img {
+    width: 200px;
+}
 
 nav ul {
     margin: 0px 30px;

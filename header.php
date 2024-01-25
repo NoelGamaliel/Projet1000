@@ -9,7 +9,9 @@
     <!-- header -->
         <div class="boxContainer">
             <nav class="boxContainer">
-                <a href="index.php">NDTECH-CONSULT</a>
+                <a href="index.php">
+                    <img src="./img/logo.png" alt="logo" srcset="">
+                </a>
                 <ul class="box">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="http://">My Services</a></li>
