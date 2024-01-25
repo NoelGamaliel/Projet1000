@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.0em;
     text-decoration: none;
     list-style-type: none;
@@ -219,7 +220,8 @@ img {
 
 /*======== AllServices ==============*/
 .allServices {
-    padding: 10px 25px;
+    padding: 15px 25px;
+    text-align: justify;
 }
 
 .allServices .cardTitle h2 {
@@ -261,12 +263,12 @@ img {
 }
 
 .card_font h1 {
-    padding: 10px 10px;
+    padding: 10px 25px;
 
 } 
 
 .card_font p {
-    padding: 25px 10px;
+    padding: 30px 25px;
     margin-bottom: 20px;
 } 
 
@@ -302,7 +304,7 @@ img {
     color: #008080;
     font-size: 3em;
     box-shadow: -3px 8px 15px -3px rgba(0,0,0,0.1);
-    border-radius: 15% 0% 10%;
+    border-radius: 10% 0% 0% 0%;
 }
 
 /* ============== Footer ==================== */
@@ -421,7 +423,6 @@ i {
 @media screen and (max-width: 600px) and (min-width: 350px) {
     
     .boxContainer {
-      background: #f8f8fbb1;
       color: #008080;
     }
     nav a {
@@ -433,6 +434,7 @@ i {
 
     /****** HERO SECTION ***********/
     .hero {
+        height: 50vh;
         margin-bottom: 70px;
     }
     .hero h1 {
@@ -450,7 +452,6 @@ i {
     
     .aboutAs {
         padding: 10px 0;
-        margin-bottom: 25px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;

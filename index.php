@@ -63,7 +63,7 @@
                         <i class="fa-solid fa-terminal"></i>
                         <h1>Developpement Web</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur, dolore quaerat accusamus, voluptate cum eligendi, nesciunt explicabo possimus ipsum nisi cupiditate unde blanditiis optio ipsam assumenda inventore eos ab. Esse, officia. Laudantium totam tenetur alias soluta veritatis perspiciatis asperiores consequatur facere incidunt aliquid cupiditate quod, sapiente error exercitationem perferendis debitis obcaecati mollitia, iusto quaerat quibusdam!
+                          The web developer is to design, create, and maintain websites and web applications, ensuring they are functional, user-friendly, and meet the objectives of the project. Web developers play a crucial role in bringing a website or web application to life by writing code, implementing features, and optimizing performance.
                         </p>
                     </a>
 
@@ -71,7 +71,7 @@
                         <i class="fa-solid fa-magnifying-glass-chart"></i>
                         <h1>Marketing Digital</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur, dolore quaerat accusamus, voluptate cum eligendi, nesciunt explicabo possimus ipsum nisi cupiditate unde blanditiis optio ipsam assumenda inventore eos ab. Esse, officia. Laudantium totam tenetur alias soluta veritatis perspiciatis asperiores consequatur facere incidunt aliquid cupiditate quod, sapiente error exercitationem perferendis debitis obcaecati mollitia, iusto quaerat quibusdam!
+                            So if you want digital marketing is to leverage online channels, platforms, and technologies to promote products, services, or brands, and to connect with a target audience. Digital marketing encompasses a wide range of strategies and tactics aimed at achieving various business objectives.
                         </p>
                     </a>
 
@@ -79,7 +79,7 @@
                         <i class="fa-solid fa-computer"></i>
                         <h1>Network & System OS</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur, dolore quaerat accusamus, voluptate cum eligendi, nesciunt explicabo possimus ipsum nisi cupiditate unde blanditiis optio ipsam assumenda inventore eos ab. Esse, officia. Laudantium totam tenetur alias soluta veritatis perspiciatis asperiores consequatur facere incidunt aliquid cupiditate quod, sapiente error exercitationem perferendis debitis obcaecati mollitia, iusto quaerat quibusdam!
+                            Our mission of a network administrator is to ensure the smooth and efficient operation of an organization's computer networks. Network administrators play a critical role in managing, maintaining, and securing the network infrastructure to support the organization's communication and information technology needs.
                         </p>
                     </a>
 
@@ -87,7 +87,7 @@
                         <i class="fa-solid fa-bezier-curve"></i>
                         <h1>Design Graphic</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur, dolore quaerat accusamus, voluptate cum eligendi, nesciunt explicabo possimus ipsum nisi cupiditate unde blanditiis optio ipsam assumenda inventore eos ab. Esse, officia. Laudantium totam tenetur alias soluta veritatis perspiciatis asperiores consequatur facere incidunt aliquid cupiditate quod, sapiente error exercitationem perferendis debitis obcaecati mollitia, iusto quaerat quibusdam!
+                            The graphic design is to visually communicate a message, idea, or concept through the use of visual elements, typography, and layout. Graphic designers play a crucial role in creating visual content that is not only aesthetically pleasing but also effectively conveys information and elicits a desired response from the audience.
                         </p>
                     </a>
                 </div>
