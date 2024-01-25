@@ -59,7 +59,7 @@ nav a {
     margin-left: 25px;
 }
 /**** boxContainer logo ***********/
-.boxContainer img {
+.boxContainer #logo {
     width: 200px;
 }
 

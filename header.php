@@ -10,7 +10,7 @@
         <div class="boxContainer">
             <nav class="boxContainer">
                 <a href="index.php">
-                    <img src="./img/logo.png" alt="logo" srcset="">
+                    <img src="./img/logo.png" alt="logo"  id="logo" srcset="">
                 </a>
                 <ul class="box">
                     <li><a href="index.php">Home</a></li>
