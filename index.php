@@ -110,7 +110,7 @@
         <!-- Technologies -->
         <section class="boxContainer">
             <div class="technologies">
-                <h1>My Technologies</h1>
+                <h1>Our Technologies</h1>
                 <p>
                     We use the new technologie usualy for satisf the want these customers.
                 </p>

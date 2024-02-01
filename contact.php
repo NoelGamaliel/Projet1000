@@ -18,16 +18,16 @@
         <form action="" method="post">
             <div class="container_form">
                 <label for="name">Name :</label>
-                <input type="text" name="name" id="name" require autofocus>
+                <input type="text" name="name" id="name" placeholder="your name complet" require autofocus>
 
                 <label for="email">Email :</label>
-                <input type="email" name="email" id="email" require>
+                <input type="email" name="email" id="email" placeholder="your address email" require>
 
                 <label for="subjet">Subjet :</label>
-                <input type="text" name="subjet" id="subjet" require>
+                <input type="text" name="subjet" id="subjet" placeholder="your subjet" require>
 
                 <label for="message">Message :</label>
-                <textarea name="message" id="message" cols="30" rows="4" require></textarea>
+                <textarea name="message" id="message" cols="30" rows="4" placeholder="writing your message here" require></textarea>
 
                 <button type="submit">Send</button>
             </div>

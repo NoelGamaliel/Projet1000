@@ -379,28 +379,31 @@ i {
 }
 
 /*============== Contact Form ===================*/
-.form {
-    border: 1px solid #008080;
+form {
+    border: 1px solid #ffffff;
 }
 
 .container_form {
     width: 50%;
     margin: auto;
     position: relative;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    top: 100px;
+    top: 90px;
+    box-shadow: -3px 8px 15px -3px rgba(0,0,0,0.1);
 }   
 
 .container_form label {
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .container_form input[type="text"], [type="email"] {
     margin-bottom: 10px;
     margin-top: 10px;
-    padding: 10px 5px;
+    padding: 5px 5px;
+    outline-color: #00abab;
 }
 
 .container_form textarea {
@@ -411,6 +414,7 @@ i {
 
 .container_form button {
     padding: 20px 50px;
+    margin-bottom: 10px;
     color: #fff;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
                          rgba(0,128,128,1) 35%,
