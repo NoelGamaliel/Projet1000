@@ -116,7 +116,7 @@ nav ul li a {
     padding: 50px 25px;
     font-size: 2.5em;
     font-weight: bold;
-    color: #008080;
+    color: #000000;
 }
 
 .hero p {
@@ -136,9 +136,7 @@ nav ul li a {
 }
 
 .hero a:hover {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
-                         #008080 0%,
-                         #012323 100%);
+    background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
     border-radius: 5px 5px;
     color: #fff;
 }
@@ -192,9 +190,7 @@ nav ul li a {
 }
 
 .btnAboutAs {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
-                         #008080 0%,
-                         #012323 100%);
+    background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
     color: #fff;
     padding: 10px 30px;
     margin-left: 25px;
@@ -255,9 +251,7 @@ img {
 }
 
 .card_font:hover {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
-                         #008080 0%,
-                         #012323 100%);
+    background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
     color: #fff;
     transform: translateY(10px);
 }
@@ -309,9 +303,7 @@ img {
 
 /* ============== Footer ==================== */
 .container_footer {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
-                         #008080 35%,
-                         #012323 100%);
+    background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -416,9 +408,7 @@ form {
     padding: 20px 50px;
     margin-bottom: 10px;
     color: #fff;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
-                         rgba(0,128,128,1) 35%,
-                         rgba(0,128,128,1) 100%);
+    background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
     border: 1px solid #f6f6f6;
 }
 
@@ -445,7 +435,7 @@ form {
         padding: 40px 25px;
         font-size: 1.7em;
         font-weight: bold;
-        color: #008080;
+        color: #c20000;
     }
 
     .hero p {
@@ -477,9 +467,7 @@ form {
 
     /*********** FOOTER *****************/
     .container_footer {
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
-                             #008080 35%,
-                             #012323 100%);
+        background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
