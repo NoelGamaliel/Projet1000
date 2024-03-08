@@ -15,18 +15,15 @@
 
 h1, h2, h3, a {
     font-family: 'Montserrat',sans-serif;
-
-}
-
-body {
-    background-color: #f8f8fbb1;
 }
 
 /*========== CONTAINER ==============*/
+.container {
+    max-width: 100%;
+}
 .boxContainer {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 85%;
+    margin: auto;
 }
 
 .box {
@@ -56,7 +53,7 @@ nav {
 
 nav a {
     font-weight: bold;
-    color: #008080;
+    color: #c20000;
     margin-left: 25px;
 }
 /**** boxContainer logo ***********/
@@ -74,7 +71,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #008080;
+    color: #c20000;
     font-size: 1.1em;
     font-weight: bold;
 }
@@ -95,7 +92,7 @@ nav ul li a {
     position: absolute;
     width: 40px;
     height: 4px;
-    background-color: #008080;
+    background-color: #c20000;
 }
 
 .btnToggle .ligne:nth-child(1) {
@@ -108,15 +105,15 @@ nav ul li a {
 
 /*=========== hero section ============= */
 .hero {
-    height: 50vh;
-    background-color: #e7e7e72a;
+    height: 60vh;
+    background: #e2e2e23f;
 }
 
 .hero h1 {
     padding: 50px 25px;
     font-size: 2.5em;
     font-weight: bold;
-    color: #000000;
+    color: #c20000;
 }
 
 .hero p {
@@ -126,10 +123,9 @@ nav ul li a {
 
 .hero a {
     margin-left: 25px;
-    padding: 10px 30px;
-    border: 1px solid #008080;
-    border-radius: 5px 5px;
-    color: #008080;
+    padding: 15px 30px;
+    border: 1px solid #c20000;
+    color: #c20000;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     font-weight: 700;
@@ -137,7 +133,6 @@ nav ul li a {
 
 .hero a:hover {
     background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
-    border-radius: 5px 5px;
     color: #fff;
 }
 
@@ -177,7 +172,7 @@ nav ul li a {
 .aboutAs h2 {
     padding: 30px 25px;
     font-size: 2em;
-    color: #008080;
+    color: #c20000;
 }
 
 .aboutAs p {
@@ -192,15 +187,13 @@ nav ul li a {
 .btnAboutAs {
     background: linear-gradient(125deg, #c20000 40%, #ffcc00 175%);
     color: #fff;
-    padding: 10px 30px;
+    padding: 15px 30px;
     margin-left: 25px;
-    border-radius: 5px 5px;
     transition: all 0.5 ease-in-out;
 }
 
 .btnAboutAs:hover {
-    border: 1px solid #008080;
-    border-radius: 5px 5px;
+    border: 1px solid #c20000;
     color: #ffffff;
 }
 
@@ -223,7 +216,7 @@ img {
 .allServices .cardTitle h2 {
     padding: 15px 0;
     font-size: 2em;
-    color: #008080;
+    color: #c20000;
 }
 
 .card_services {
@@ -239,7 +232,7 @@ img {
 }
 
 .card_font {
-    color: #008080;
+    color: #000000;
     transition: all 0.10s ease-out;
 }
 
@@ -247,7 +240,7 @@ img {
     background-color: #fff;;
     padding: 15px 10px;
     font-size: 2em;
-    color: #008080;
+    color: #c20000;
 }
 
 .card_font:hover {
@@ -270,7 +263,7 @@ img {
 .Teams h1 {
     padding: 25px 15px;
     font-size: 2em;
-    color: #008080;
+    color: #c20000;
 }
 
 .Teams p {
@@ -281,7 +274,7 @@ img {
 .technologies h1 {
     padding: 25px 15px;
     font-size: 2em;
-    color: #008080;
+    color: #c20000;
 }
 
 .technologies p {
@@ -295,7 +288,7 @@ img {
 }
 
 .items_technologies i {
-    color: #008080;
+    color: #c20000;
     font-size: 3em;
     box-shadow: -3px 8px 15px -3px rgba(0,0,0,0.1);
     border-radius: 10% 0% 0% 0%;
@@ -395,7 +388,7 @@ form {
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 5px 5px;
-    outline-color: #00abab;
+    outline-color: #c20000;
 }
 
 .container_form textarea {
@@ -417,12 +410,12 @@ form {
 @media screen and (max-width: 600px) and (min-width: 350px) {
     
     .boxContainer {
-      color: #008080;
+      color: #c20000;
     }
     nav a {
         font-weight: bold;
         font-size: 1rem;
-        color: #008080;
+        color: #c20000;
         margin-left: 25px;
     }
 

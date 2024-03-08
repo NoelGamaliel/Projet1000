@@ -32,7 +32,7 @@
 
         <!-- About me -->
         <section class="boxContainer">
-            <div class="aboutAs">
+            <div class="aboutAs" id="aboutas">
                 <div class="aboutAsTitle">
                     <br><br><br><br>
                 <h2>About As</h2>
@@ -58,7 +58,7 @@
                 <div class="cardTitle">
                     <h2>My Services</h2>
                 </div>
-                <div class="card_services">
+                <div class="card_services" id="myservices">
                     <a href="#" class="card_font">
                         <i class="fa-solid fa-terminal"></i>
                         <h1>Developpement Web</h1>
