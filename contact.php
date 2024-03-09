@@ -29,15 +29,23 @@
                         $test = $_POST["test"];
 
                         $message = "";
-                        /******** INSERT TO DATABASES *******************************/
-                        $req = "INSERT INTO message (nom, email, subjet, test) VALUES (?, ?, ?, ?)";
-                        $stmt = $conn->prepare($req);
 
-                        if ($stmt->execute(array($nom, $email, $subjet, $test))) {
-                            echo 'Succefull... Your request as received !';
-                        } else {
-                            echo 'Your article is not saved !';
+                        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                            # code...
+                            /******** INSERT TO DATABASES *******************************/
+                            $req = "INSERT INTO message (nom, email, subjet, test) VALUES (?, ?, ?, ?)";
+                            $stmt = $conn->prepare($req);
+
+                            if ($stmt->execute(array($nom, $email, $subjet, $test))) {
+                                echo 'Your request as received with succes! Return to home page...';
+                            } else {
+                                echo 'Your article is not saved !';
+                            }
                         }
+                        else {
+                            echo 'change the format the your email';
+                        }
+
                     }
                 ?>
                 <label for="name">Name :</label>

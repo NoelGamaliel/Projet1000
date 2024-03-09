@@ -13,9 +13,6 @@
     list-style-type: none;
 }
 
-body {
-    background-color: #f6f6f6;
-}
 
 h1, h2, h3, a {
     font-family: 'Montserrat',sans-serif;
@@ -368,9 +365,6 @@ i {
 }
 
 /*============== Contact Form ===================*/
-form {
-    border: 1px solid #ffffff;
-}
 
 .container_form {
     width: 50%;
