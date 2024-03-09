@@ -19,7 +19,7 @@
         <!-- hero section -->
         <section class="boxContainer">
             <div class="hero">
-                <h1>Welcome to NDTech - Consult...</h1>
+                <h1>Welcome to NDTechnologie...</h1>
 
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, voluptas culpa voluptates delectus voluptatibus nulla rerum fuga. Tempore necessitatibus iste quam autem repellat molestiae nemo. Maiores non impedit ea rerum nihil nisi a fuga tenetur sunt id beatae iusto odit earum, alias dolore mollitia quos quas illo quis tempora dicta corporis perferendis obcaecati. Animi, voluptatibus labore.

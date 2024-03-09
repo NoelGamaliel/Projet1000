@@ -15,10 +15,33 @@
     ?>
     <br><br><br>
     <main class="boxContainer">
-        <form action="" method="post">
+        <form action="contact.php" method="post">
             <div class="container_form">
+                <?php 
+                    include 'conn/_cnx.php';
+
+                    // declared the variable;
+                    if (isset($_POST['send'])) {
+                        /******************** SUPER VARIABLE OF MY PAGE ****************/
+                        $nom = $_POST["nom"];
+                        $email = $_POST["email"];
+                        $subjet = $_POST["subjet"];
+                        $test = $_POST["test"];
+
+                        $message = "";
+                        /******** INSERT TO DATABASES *******************************/
+                        $req = "INSERT INTO message (nom, email, subjet, test) VALUES (?, ?, ?, ?)";
+                        $stmt = $conn->prepare($req);
+
+                        if ($stmt->execute(array($nom, $email, $subjet, $test))) {
+                            echo 'Succefull... Your request as received !';
+                        } else {
+                            echo 'Your article is not saved !';
+                        }
+                    }
+                ?>
                 <label for="name">Name :</label>
-                <input type="text" name="name" id="name" placeholder="your name complet" require autofocus>
+                <input type="text" name="nom" id="name" placeholder="your name complet" require autofocus>
 
                 <label for="email">Email :</label>
                 <input type="email" name="email" id="email" placeholder="your address email" require>
@@ -27,9 +50,9 @@
                 <input type="text" name="subjet" id="subjet" placeholder="your subjet" require>
 
                 <label for="message">Message :</label>
-                <textarea name="message" id="message" cols="30" rows="4" placeholder="writing your message here" require></textarea>
+                <textarea name="test" id="message" cols="30" rows="4" placeholder="writing your message here" require></textarea>
 
-                <button type="submit">Send</button>
+                <button type="submit" name="send">Send</button>
             </div>
         </form>
     </main>
