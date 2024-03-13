@@ -18,34 +18,34 @@
         <form action="contact.php" method="post">
             <div class="container_form">
                 <?php 
-                    include 'conn/_cnx.php';
 
+                    include 'conn/_cnx.php';
                     // declared the variable;
                     if (isset($_POST['send'])) {
                         /******************** SUPER VARIABLE OF MY PAGE ****************/
-                        $nom = $_POST["nom"];
-                        $email = $_POST["email"];
-                        $subjet = $_POST["subjet"];
-                        $test = $_POST["test"];
-
+                        $nom = htmlspecialchars($_POST["nom"]);
+                        $email = htmlspecialchars($_POST["email"]);
+                        $subjet = htmlspecialchars($_POST["subjet"]);
+                        $test = htmlspecialchars($_POST["test"]);
+                        
                         $message = "";
 
-                        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                            # code...
-                            /******** INSERT TO DATABASES *******************************/
-                            $req = "INSERT INTO message (nom, email, subjet, test) VALUES (?, ?, ?, ?)";
-                            $stmt = $conn->prepare($req);
-
-                            if ($stmt->execute(array($nom, $email, $subjet, $test))) {
-                                echo 'Your request as received with succes! Return to home page...';
-                            } else {
-                                echo 'Your article is not saved !';
-                            }
-                        }
-                        else {
-                            echo 'change the format the your email';
+                        if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
+                            die("Your email is not valid");
                         }
 
+                        /******** INSERT TO DATABASES *******************************/
+                        $req = "INSERT INTO message (nom, email, subjet, test) VALUES (?,?,?,?)";
+                        $stmt = $conn->prepare($req);
+
+                        if ($stmt->execute([$nom, $email, $subjet, $test])) {
+                            echo "<script>alert('Your message has send with succes!');</script>";
+                        } else {
+                            echo "<script>alert('Your message is not send!');</script>";
+                        }
+
+                    } else {
+                        echo "Your champs are empty";
                     }
                 ?>
                 <label for="name">Name :</label>
@@ -60,7 +60,7 @@
                 <label for="message">Message :</label>
                 <textarea name="test" id="message" cols="30" rows="4" placeholder="writing your message here" require></textarea>
 
-                <button type="submit" name="send">Send</button>
+                <button type="submit" name="send">Send your message</button>
             </div>
         </form>
     </main>
