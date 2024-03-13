@@ -67,7 +67,7 @@
                         </p>
                     </a>
 
-                    <a href="#" class="card_font">
+                    <a href="./marketing.php" class="card_font">
                         <i class="fa-solid fa-magnifying-glass-chart"></i>
                         <h1>Marketing Digital</h1>
                         <p>
