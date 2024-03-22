@@ -8,7 +8,7 @@ try {
     $conn = new PDO($dsn, $user, $pass); //code...
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    echo  'Une error de la connexion est survenue'; //throw $th;
+    echo  'Mistake to connect to databases...'; //throw $th;
 }
 
 
