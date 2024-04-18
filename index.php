@@ -19,10 +19,10 @@
         <!-- hero section -->
         <section class="boxContainer">
             <div class="hero">
-                <h1>Welcome to NDTechnologie...</h1>
+                <h1>Welcome to ND - Technologie...</h1>
 
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, voluptas culpa voluptates delectus voluptatibus nulla rerum fuga. Tempore necessitatibus iste quam autem repellat molestiae nemo. Maiores non impedit ea rerum nihil nisi a fuga tenetur sunt id beatae iusto odit earum, alias dolore mollitia quos quas illo quis tempora dicta corporis perferendis obcaecati. Animi, voluptatibus labore.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque perspiciatis deleniti repellendus?
                 </p>
 
                 <a href="contact.php">Contact As</a>
@@ -35,9 +35,9 @@
             <div class="aboutAs" id="aboutas">
                 <div class="aboutAsTitle">
                     <br><br><br><br>
-                <h2>About As</h2>
+                    <h2>About As</h2>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto laudantium quam libero corrupti sequi quia voluptates vitae error alias possimus odio atque, quibusdam, sed maiores, quaerat est deleniti? Inventore nemo quam unde commodi nihil. Pariatur repellat aliquam totam mollitia dolore!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt eveniet corporis.
                     </p>
                     
                     <a href="#" class="btnAboutAs">

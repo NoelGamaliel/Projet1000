@@ -30,22 +30,23 @@
                         
                         $message = "";
 
-                        if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
-                            die("Your email is not valid");
+                        /********** IF THE CHAMPS IS EMPTY ****************/
+                        if (empty($_POST["nom"]) || empty($_POST["email"]) || empty($_POST["subjet"]) || empty($_POST["test"])) {
+                            echo "<script>alert('Your champs are empty');</script>";
                         }
+                        else {
+                            /******** INSERT TO DATABASES *******************************/
+                            $req = "INSERT INTO message (nom, email, subjet, test) VALUES (?,?,?,?)";
+                            $stmt = $conn->prepare($req);
 
-                        /******** INSERT TO DATABASES *******************************/
-                        $req = "INSERT INTO message (nom, email, subjet, test) VALUES (?,?,?,?)";
-                        $stmt = $conn->prepare($req);
+                            if ($stmt->execute([$nom, $email, $subjet, $test])) {
+                                echo "<script>alert('Your message has send with succes!');</script>";
 
-                        if ($stmt->execute([$nom, $email, $subjet, $test])) {
-                            echo "<script>alert('Your message has send with succes!');</script>";
-                        } else {
-                            echo "<script>alert('Your message is not send!');</script>";
+                                header('Location: index.php');
+                            } else {
+                                echo "<script>alert('Your message is not send!');</script>";
+                            }                            
                         }
-
-                    } else {
-                        echo "Your champs are empty";
                     }
                 ?>
                 <label for="name">Name :</label>

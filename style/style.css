@@ -111,14 +111,14 @@ nav ul li a {
 }
 
 .hero h1 {
-    padding: 50px 25px;
+    padding: 60px 25px;
     font-size: 3em;
     font-weight: bold;
     color: #c20000;
 }
 
 .hero p {
-    padding: 10px 25px;
+    padding: 5px 25px;
     margin-bottom: 50px;
 }
 
@@ -170,7 +170,7 @@ nav ul li a {
     gap: 20px;
 }
 
-.aboutAs h2 {
+.aboutAsTitle h2 {
     padding: 30px 25px;
     font-size: 2em;
     color: #c20000;
@@ -310,6 +310,15 @@ img {
     margin-bottom: 10px;
 }
 
+.copyright {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c20000;
+    color: #fff;
+}
+
 .items_content {
     padding: 18px 0;
 }
@@ -410,18 +419,28 @@ i {
     .boxContainer {
       color: #c20000;
     }
-    nav a {
+
+    #logo {
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .box {
+        display: flex;
+        position: absolute;
+    }
+    nav ul li a {
         font-weight: bold;
         font-size: 1rem;
-        color: #c20000;
+        color: #000000;
         margin-left: 25px;
     }
 
     /****** HERO SECTION ***********/
     .hero {
-        height: 50vh;
-        margin-bottom: 70px;
+        height: 55vh;
+        margin-bottom: 0px;
     }
+
     .hero h1 {
         padding: 40px 25px;
         font-size: 1.7em;

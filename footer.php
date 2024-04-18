@@ -45,8 +45,10 @@
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-solid fa-envelope"></i></a>                        
                     </div>
-
                 </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 ND -Technologie</p>                    
             </div>
         </section>
     </main>
